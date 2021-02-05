@@ -16,15 +16,17 @@
         android:text="Alifboni o`rganamiz"
         android:textColor="#ff0000"
         android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:background="#22BB86FC"
         android:textStyle="bold" />
 
     <LinearLayout
-       android:layout_width="match_parent"
+       android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:orientation="horizontal">
        <Button
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"
+           android:layout_width="70dp"
+           android:layout_height="70dp"
            android:layout_weight="1"
            android:layout_margin="3dp"
            android:text="A"
@@ -233,8 +235,10 @@
             android:layout_weight="1"
             android:layout_margin="3dp"
             android:text="Testga o`tish"
-            android:textColor="#FFC107"
+            android:textColor="#FF0303"
             android:textSize="30sp"
+            android:textStyle="bold"
+            android:backgroundTint="#22BB86FC"
             android:textAllCaps="false"/>
     </LinearLayout>
 
